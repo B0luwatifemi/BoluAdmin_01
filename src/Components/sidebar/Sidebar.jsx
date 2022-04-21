@@ -1,6 +1,6 @@
 import "./sidebar.css"
 
-import { LineStyle, Timeline, TrendingUp } from "@mui/icons-material";
+import { LineStyle, Person, Inventory2, Equalizer, Paid, Message, Feedback, Mail, Timeline, WorkOutline, TrendingUp, Report, Insights } from "@mui/icons-material";
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -25,51 +25,55 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem active">
-                        <LineStyle className="sidebarIcon" />
-                        Home
+                    <li className="sidebarListItem">
+                        <Person className="sidebarIcon" />
+                        User
                     </li>
                     <li className="sidebarListItem">
-                        <Timeline className="sidebarIcon" />
-                       Analytics
+                        <Inventory2 className="sidebarIcon" />
+                       Products
                     </li>
                     <li className="sidebarListItem">
-                        <TrendingUp className="sidebarIcon" />
-                       Sales
+                        <Paid className="sidebarIcon" />
+                       Transactions
+                    </li>
+                    <li className="sidebarListItem">
+                        <Equalizer className="sidebarIcon" />
+                       Reports
                     </li>
                 </ul> 
             </div>
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Notifications</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem active">
-                        <LineStyle className="sidebarIcon" />
-                        Home
+                    <li className="sidebarListItem ">
+                        <Mail className="sidebarIcon" />
+                        Mail
                     </li>
                     <li className="sidebarListItem">
-                        <Timeline className="sidebarIcon" />
-                       Analytics
+                        <Feedback className="sidebarIcon" />
+                       Feedback
                     </li>
                     <li className="sidebarListItem">
-                        <TrendingUp className="sidebarIcon" />
-                       Sales
+                        <Message className="sidebarIcon" />
+                       Messages
                     </li>
                 </ul> 
             </div>
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Staff</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem active">
-                        <LineStyle className="sidebarIcon" />
-                        Home
+                    <li className="sidebarListItem ">
+                        <WorkOutline className="sidebarIcon" />
+                        Manage
                     </li>
                     <li className="sidebarListItem">
-                        <Timeline className="sidebarIcon" />
+                        <Insights className="sidebarIcon" />
                        Analytics
                     </li>
                     <li className="sidebarListItem">
-                        <TrendingUp className="sidebarIcon" />
-                       Sales
+                        <Report className="sidebarIcon" />
+                       Reports
                     </li>
                 </ul> 
             </div>
