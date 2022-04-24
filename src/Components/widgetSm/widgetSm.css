@@ -35,10 +35,12 @@
  
  .widgetSmUsername {
      font-weight: 600;
+     font-size: 15px;
 }
 
 .widgetSmUserTitle {
     font-weight: 300;
+    font-size: 15px;
 }
 .widgetSmButton{
     display: flex;
@@ -53,5 +55,6 @@
 
 .widgetSmIcon {
     font-size: 16px !important;
-    margin-right: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
