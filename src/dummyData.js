@@ -49,3 +49,79 @@ export const userData = [
     },
 
   ];
+
+  export const userRows = [
+    { id: 1, 
+      Username: "Tifemi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 2, 
+      Username: "Olufemi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", transaction: "$120.00" },
+
+    { id: 3, 
+      Username: "Bolu", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 4, 
+      Username: "Yomi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", transaction: 
+      "$120.00" },
+      
+    { id: 5, 
+      Username: "Titus", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 6, 
+      Username: "Oluwafe", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 7, 
+      Username: "Botifemi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 8, 
+      Username: "Oluyomi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+    { id: 9, 
+      Username: "Ayokanmi", 
+      avatar:"./Image/Picture1.jpeg", 
+      email: "femihappiness@gmail.com", 
+      status: "active", 
+      transaction: "$120.00" },
+
+    { id: 10, 
+      Username: "Kanmi", 
+    avatar:"./Image/Picture1.jpeg", 
+    email: "femihappiness@gmail.com", 
+    status: "active", transaction: "$120.00" },
+    { id: 11, 
+      Username: "Jboy", 
+    avatar:"./Image/Picture1.jpeg", 
+    email: "femihappiness@gmail.com", 
+    status: "active", transaction: "$120.00" },
+    
+];
+    

@@ -18,9 +18,9 @@ export default function WidgetSm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src="./Image/Image3.jpeg" alt="" className="widgetSmImg" />
+        <img src="./Image/Picture3.jpeg" alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
-          <span className="widgetSmUsername">Olufemi Oluyomi</span>
+          <span className="widgetSmUsername">Yomi Femi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
         </div>
         <button className="widgetSmButton">
