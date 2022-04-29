@@ -1,6 +1,7 @@
 import "./sidebar.css"
 
 import { LineStyle, Person, Inventory2, Equalizer, Paid, Message, Feedback, Mail, Timeline, WorkOutline, TrendingUp, Report, Insights } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -8,10 +9,13 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Dashboard</h3>
                 <ul className="sidebarList">
+                <Link to="/home" className="link">
                     <li className="sidebarListItem active">
+                        
                         <LineStyle className="sidebarIcon" />
                         Home
                     </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <Timeline className="sidebarIcon" />
                        Analytics
@@ -25,14 +29,18 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
+                    <Link to="/user" className="link">
                     <li className="sidebarListItem">
                         <Person className="sidebarIcon" />
                         User
                     </li>
+                    </Link>
+                    <Link to="/products" className="link">
                     <li className="sidebarListItem">
                         <Inventory2 className="sidebarIcon" />
                        Products
                     </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <Paid className="sidebarIcon" />
                        Transactions

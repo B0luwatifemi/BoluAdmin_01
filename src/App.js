@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import UserList from "./Pages/userList/UserList";
 import User from "./Pages/user/User";
+import NewUser from "./Pages/newUser/NewUser";
+import ProductList from "./Pages/productList/ProductList";
 function App() {
   return ( 
     <BrowserRouter>
@@ -16,12 +18,16 @@ function App() {
       <div className="container">
       <Sidebar/>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
         <Route path="/users" element={<UserList />} />
-        <Route path="/:userId" element={<User />} />
+        <Route path="/:userid" element={<User />} />
+        <Route path="/newUser" element={<NewUser />} />
+        <Route path="/products" element={<ProductList />} />
+        <Route path="/product/:productId" element={<User />} />
+        <Route path="/products" element={<NewUser />} />
       </Routes>
       </div>
-    </BrowserRouter>
+    </BrowserRouter>  
   ); 
 }
 
