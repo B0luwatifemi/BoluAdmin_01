@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./product.css"
 import Chart from "../../Components/charts/Chart";
 import { productData } from "../../dummyData";
+import { Publish } from "@mui/icons-material";
 
 export default function Product() {
   return (
@@ -18,7 +19,7 @@ export default function Product() {
           </div>
           <div className="productTopRight">
               <div className="productInfoTop">
-                  <img src="./Image/An1.jpeg" alt="" className="productInfoImg" />
+                  <img src="/Image/An1.jpeg" alt="" className="productInfoImg" />
                   <span className="productName">Apple Airpods</span>
               </div>
               <div className="productInfoBottom">
@@ -27,21 +28,49 @@ export default function Product() {
                       <span className="productInfoValue">123</span>
                   </div>
                   <div className="productInfoItem">
-                      <span className="productInfoKey">sales</span>
+                      <span className="productInfoKey">sales:</span>
                       <span className="productInfoValue">$1,230</span>
                   </div>
                   <div className="productInfoItem">
-                      <span className="productInfoKey">active</span>
+                      <span className="productInfoKey">active:</span>
                       <span className="productInfoValue">yes</span>
                   </div>
                   <div className="productInfoItem">
-                      <span className="productInfoKey">in stock</span>
+                      <span className="productInfoKey">in stock:</span>
                       <span className="productInfoValue">no</span>
                   </div>
               </div>
           </div>
       </div>
-      <div className="productBottom"></div>
+      <div className="productBottom">
+          <form className="productForm">
+                <div className="productFormLeft">
+                    <label >Prodcut Name</label>
+                    <input type="text" placeholder="Apple Airpod" />
+                    <label >In Stock</label>
+                    <select name="InStock" id="inStock">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                    <label >Active</label>
+                    <select name="active" id="active">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                </div>
+                <div className="productFormRight">
+                    <div className="productUpload">
+                        <img src="/Image/A1.jpeg" alt="" className="productUploadImg" />
+                        <label for="file">
+                        <Publish/>
+                        </label>
+                        <input type="file" id="file" style={{display:"none"}} />
+                    </div>
+                    <button className="productButton">Update</button>
+                </div>
+          </form>
+      </div>
     </div>
   );
 }

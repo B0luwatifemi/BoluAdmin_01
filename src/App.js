@@ -12,6 +12,7 @@ import User from "./Pages/user/User";
 import NewUser from "./Pages/newUser/NewUser";
 import ProductList from "./Pages/productList/ProductList";
 import Product from "./Pages/product/Product";
+import NewProduct from "./Pages/newProduct/NewProduct";
 function App() {
   return ( 
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
         <Route path="/newUser" element={<NewUser />} />
         <Route path="/product" element={<ProductList />} />
         <Route path="/product/:productid" element={<Product />} />
+        <Route path="/newProduct" element={<NewProduct />} />
       </Routes>
       </div>
     </BrowserRouter>  
