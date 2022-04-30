@@ -19,12 +19,14 @@ export default function ProductList() {
           renderCell: (params)=>{
           return (
             <div className="productListUser">
-              <img className="productListImage" src={params.row.image} alt="" />
+              <img className="productListImage" src={params.row.img} alt="" />
               {params.row.name}
             </div>
           )
         } },
-        { field: 'stock', headerName: 'Stock', width: 200 },
+        { field: 'stock', 
+        headerName: 'Stock', 
+        width: 200 },
         {
           field: 'status',
           headerName: 'Status',
@@ -42,7 +44,7 @@ export default function ProductList() {
             renderCell:(params)=>{
               return (
                 <>
-                <Link to={"/product" + params.row.id}>
+                <Link to={"/product" +"/" + params.row.id}>
                 <button className="productListEdit">Edit</button>
                 </Link>
                 <DeleteOutline 
@@ -56,7 +58,8 @@ export default function ProductList() {
   return (
     <div className="productList">
        <DataGrid
-        rows={data} disableSelectionOnClick
+        rows={data} 
+        disableSelectionOnClick
         columns={columns}
         pageSize={8}
         rowsPerPageOptions={[5]}

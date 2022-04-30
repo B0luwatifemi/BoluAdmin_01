@@ -21,7 +21,7 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="./Image/ProfilePicture.jpeg" alt="" className="MyPicture" />
+          <img src="/Image/ProfilePicture.jpeg" alt="" className="MyPicture" />
 
         </div>
       </div>

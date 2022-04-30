@@ -11,6 +11,7 @@ import UserList from "./Pages/userList/UserList";
 import User from "./Pages/user/User";
 import NewUser from "./Pages/newUser/NewUser";
 import ProductList from "./Pages/productList/ProductList";
+import Product from "./Pages/product/Product";
 function App() {
   return ( 
     <BrowserRouter>
@@ -18,13 +19,12 @@ function App() {
       <div className="container">
       <Sidebar/>
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/users" element={<UserList />} />
-        <Route path="/:userid" element={<User />} />
+        <Route path="/user/:userid" element={<User />} />
         <Route path="/newUser" element={<NewUser />} />
-        <Route path="/products" element={<ProductList />} />
-        <Route path="/product/:productId" element={<User />} />
-        <Route path="/products" element={<NewUser />} />
+        <Route path="/product" element={<ProductList />} />
+        <Route path="/product/:productid" element={<Product />} />
       </Routes>
       </div>
     </BrowserRouter>  

@@ -16,8 +16,8 @@ export default function User() {
             <div className="userShow">
                 <div className="userShowTop">
                     <img className="userShowImage" 
-                    src="./Image/PictureCap.jpeg" 
-                    alt="" />
+                    src="/Image/PictureInOfficePhone.jpeg" 
+                    alt="not clear" />
                <div className="userShowTopTile">
                    <span className="userShowTopUsername">Olufemi Oluyomi</span>
                    <span className="userShowTopUserTitle">Software Engineer</span>
@@ -100,7 +100,7 @@ export default function User() {
                         <div className="userUpdateUpload">
                             <img 
                             className="userUpdateImage" 
-                            src="./Image/PictureNigga.jpeg" 
+                            src="/Image/PictureNigga.jpeg" 
                             alt="" />
                             <label htmlFor="file">
                                 <Publish 

@@ -18,7 +18,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src="./Image/Bolu.jpg.jpg" 
+            <img src="/Image/Bolu.jpg.jpg" 
             alt="" 
             className="widgetLgImage" 
             />
@@ -31,7 +31,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src="./Image/Bolu.jpg.jpg" 
+            <img src="/Image/Bolu.jpg.jpg" 
             alt="" 
             className="widgetLgImage" 
             />
@@ -44,7 +44,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src="./Image/Bolu.jpg.jpg" 
+            <img src="/Image/Bolu.jpg.jpg" 
             alt="" 
             className="widgetLgImage" 
             />
@@ -57,7 +57,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src="./Image/Bolu.jpg.jpg" 
+            <img src="/Image/Bolu.jpg.jpg" 
             alt="" 
             className="widgetLgImage" 
             />

@@ -1,5 +1,6 @@
 import { Visibility } from "@mui/icons-material"
 import "./widgetSm.css"
+import Image1 from "./Bolu.jpg.jpg"
 
 export default function WidgetSm() {
   return (
@@ -7,7 +8,7 @@ export default function WidgetSm() {
     <span className="widgetSmTitle">New Join Members</span>
     <ul className="widgetSmList">
       <li className="widgetSmListItem">
-        <img src="./Image/Image3.jpeg" alt="" className="widgetSmImg" />
+        <img src={Image1} alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
           <span className="widgetSmUsername">Olufemi Oluyomi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
@@ -18,7 +19,7 @@ export default function WidgetSm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src="./Image/Picture3.jpeg" alt="" className="widgetSmImg" />
+        <img src="/Image/Picture3.jpeg" alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
           <span className="widgetSmUsername">Yomi Femi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
@@ -29,7 +30,7 @@ export default function WidgetSm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src="./Image/Image3.jpeg" alt="" className="widgetSmImg" />
+        <img src="/Image/Image3.jpeg" alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
           <span className="widgetSmUsername">Olufemi Oluyomi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
@@ -40,7 +41,7 @@ export default function WidgetSm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src="./Image/Image3.jpeg" alt="" className="widgetSmImg" />
+        <img src="/Image/Image3.jpeg" alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
           <span className="widgetSmUsername">Olufemi Oluyomi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
@@ -51,7 +52,7 @@ export default function WidgetSm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src="./Image/Image3.jpeg" alt="" className="widgetSmImg" />
+        <img src="/Image/Image3.jpeg" alt="" className="widgetSmImg" />
         <div className="widgetSmUser">
           <span className="widgetSmUsername">Olufemi Oluyomi</span>
           <span className="widgetSmUserTitle">Software Engineer</span>
