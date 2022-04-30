@@ -100,7 +100,7 @@ export default function User() {
                         <div className="userUpdateUpload">
                             <img 
                             className="userUpdateImage" 
-                            src="/Image/PictureNigga.jpeg" 
+                            src="/Image/Picture2.jpeg" 
                             alt="" />
                             <label htmlFor="file">
                                 <Publish 
