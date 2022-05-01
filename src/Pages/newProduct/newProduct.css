@@ -3,7 +3,8 @@
 }
 
 .addProductForm {
-    margin-top: 10px;
+    margin: 10px;
+
 }
 
 .addProductItem {
@@ -21,7 +22,13 @@
 
 .addProductItem >input{
     padding: 10px;
+    width: 350px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
 }
+
 
 .addProductItem > select {
     padding: 10px;

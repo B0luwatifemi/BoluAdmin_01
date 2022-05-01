@@ -11,15 +11,15 @@ export default function NewProduct() {
           </div>
           <div className="addProductItem">
               <label>Name</label>
-              <input type="text" placeholder="Name of Product?" />
+              <input type="text" placeholder="Name of Product?" className="box" />
           </div>
           <div className="addProductItem">
               <label>Stock</label>
-              <input type="text" placeholder="quantity" />
+              <input type="text" placeholder="Quantity?" className="box" />
           </div>
           <div className="addProductItem">
               <label>Active</label>
-              <select name="active" id="active">
+              <select name="active" id="active" className="box">
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
               </select>
